@@ -1,0 +1,703 @@
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/container.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url("components/carousel.css");
+@import url("components/margin.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Sometype+Mono&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    border: 0px;
+}
+
+:root{
+    font-size: 16px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    color: #1D1D1F;
+    text-align: justify;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+h1{
+    color: #C5241A;
+    font-family: Inter;
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+h2{
+    color: #C5241A;
+    font-family: Inter;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+.div-card{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.div-card-temoignage{
+    justify-content: space-between;
+}
+
+.center{
+    text-align: center;
+}
+
+.centered-element{
+    margin: 0 auto;
+}
+
+ul li{
+    margin-bottom: 16px;
+}
+
+.img-stage-2{
+    width: 78%;
+    object-fit: cover;
+}
+
+.img-circuit{
+    width: 1154px;
+    height: 695px;
+}
+
+.logo-ferrari{
+    width: 31px;
+    height: 49px;
+}
+
+.logo-lambo{
+    width: 44px;
+    height: 50px;
+}
+
+.logo-porsche{
+    width: 35px;
+    height: 45px;
+}
+
+.flex{
+    display: flex;
+}
+
+.logo-ferrari-c{
+    width: 50px;
+    height: 79px;
+}
+
+.photo-profil{
+    width: 367px;
+    height: 181px;
+}
+
+.apostrophe{
+    width: 48px;
+    height: 48px;
+    margin-top: -30px;
+    margin-left: 16px;
+}
+
+.menu-deroulant {
+    margin: 32px;
+    text-align: center;
+    color: #1D1D1F;
+    border: #1D1D1F;
+}
+  
+label {
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+  
+select {
+    padding: 8px;
+    color: #1D1D1F;
+    font-size: 1rem;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+    margin: 50px;
+  }
+  
+.dropbtn {
+    padding: 10px;
+    border: none;
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #333;
+    padding: 12px 16px;
+    display: block;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #ddd;
+}
+
+.div-intro{
+    width: 679px;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+
+
+.div-btn-center a{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.75rem;
+    padding: 16px 32px;
+}
+
+.barre{
+    position: fixed;
+    z-index: 1000;
+    width: 1248px;
+    height: 80px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 0px 40px -10px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px 24px;
+    top: 48px;
+}
+
+.barre-text p{
+    display: flex;
+}
+
+#GT4RS{
+    font-size: 4rem;
+}
+
+#logo-motorsport{
+    width: 131px;
+    height: 48px;
+}
+
+#panier{
+    height: 24px;
+    margin-left: 16px;
+}
+
+#compte{
+    width: 25px;
+    height: 24px;
+}
+
+.list-hrz{
+    list-style: none;
+}
+
+.list-hrz li{
+    display: inline;
+    padding: 16px;
+}
+
+.list-hrz a{
+    color:#C5241A;
+}
+
+.list-hrz a:hover{
+    color: #bbb;
+    font-weight: 800;
+}
+
+.list-hrz a:hover{
+    font-weight: 500;
+}
+
+#list-hrz-contact{
+    list-style: none;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+#list-hrz-contact li{
+    display: inline;
+    padding: 100px;
+    align-items: center;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+    gap: 80px;
+}
+
+.contact-info{
+    text-align: center;
+}
+
+.contact-info h3{
+    color: #C5241A;
+    margin-top: 10px;
+}
+
+#formulaire h2{
+    font-size: 1.5rem;
+    margin-bottom: 32px;
+    color: #1D1D1F;
+}
+
+#carousel{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 112px;
+}
+
+
+#container-carousel{
+    overflow: hidden;
+    width: 1154px;
+    margin: 0 auto;
+}
+
+
+#coulissant{
+    display: flex;
+}
+
+
+#coulissant img{
+    width: 1154px;
+}
+
+.div-description{
+    width: 700px;
+}
+
+.div-centered{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#div-info{
+    display: flex;
+    gap: 82px;
+}
+
+#div-info-card{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+
+/* notification panier */ 
+
+.notification-circle {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: red;
+    animation: notification 1s linear infinite;
+}
+
+.notification-circle .number {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 0.75rem;
+    color: white;
+}
+
+@keyframes notification {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+/* formulaire */ 
+
+
+.formulaire{
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.formulaire h2{
+    font-size: 1.625rem;
+    margin-bottom: 8px;
+}
+
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+
+
+
+.formulaire-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.order{
+    display: none;
+}
+
+.barre-icone{
+    display: flex;
+    align-items: center;
+}
+
+.col-1{
+    flex: 0 0 100%;
+}
+
+.col-2{
+    flex: 0 0 calc(50% - 16px);
+}
+
+.col-2 img{
+    width: 100%;
+    height: 492px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+
+
+
+#responsive-menu{
+    position: absolute;
+    width: 50%;
+    height: 100vh;
+
+    right: 0;
+
+    background-color: white;
+
+    z-index: 100000;
+
+    display: flex;
+    justify-content: center;
+
+
+    transform: translateX(100%);
+    transition: all ease-in-out 300ms;
+}
+
+#cross-burger{
+    position: absolute;
+    right: 32px;
+    top: 32px;
+    
+    cursor: pointer;
+}
+
+#responsive-menu ul{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#responsive-menu li{
+    display: flex;
+    align-items: center;
+    height: 14.29vh;
+    margin: 0px;
+
+    width: 100%;
+}
+
+#responsive-menu li:hover{
+    background-color: #bbb ;
+}
+
+
+#responsive-menu a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #C5241A;
+    font-size: 1.25rem;
+
+    height: 100%;
+    width: 100%;
+}
+
+
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+@media (min-width: 769px) {
+    #burger{
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .container{
+        width: 672px;
+    }
+
+    .barre{
+        width: 672px;
+    }
+
+    .barre-text{
+        display: none;
+    }
+
+    .barre-icon{
+        display: none;
+    }
+
+    .div-card-temoignage{
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .card-temoignage{
+        width: 100%;
+        border-radius: 8px;
+    }
+
+    .photo-profil{
+        width: 100%;
+        object-fit: cover;
+
+        border-radius: 8px 8px 0px 0px;
+    }
+
+    body > div.container > div.div-card-temoignage.flex.mb-112 > div.card-temoignage.mr-36.ml-36{
+        margin: 0px;
+    }
+
+    .img-stage-1{
+        width: 80%;
+    }
+
+    .img-stage-2{
+        width: 80%;
+    }
+
+    .div-card{
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .card-car img{
+        width: 100%;
+        object-fit: cover;
+    }
+
+    #card-nouveaute{
+        flex-direction: column;
+        width: 100%;
+        gap: 32px;
+    }
+
+    #card-nouveaute > div:nth-child(2) > img{
+        margin: 0px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    #card-nouveaute > div:nth-child(1){
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-circuit{
+        width: 100%;
+        object-fit: cover;
+    }
+
+    #div-info{
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    #div-info-texte{
+        margin: 0px;
+    }
+
+    .card-caracteristic{
+        width: 100%;
+        margin: 0px;
+    }
+
+    .card-commande{
+        width: 100%;
+        margin: 0px;
+    }
+
+    .div-intro{
+        width: 100%;
+    }
+
+    .div-description{
+        width: 100%;
+    }
+
+    .card-landing{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .banner-histoire h2{
+        padding: 16px;
+    }
+    
+}
+
+@media (max-width: 375px) {
+
+    :root{
+        font-size: 14px;
+    }
+
+    .banner-landing h2{
+        font-size: 2rem;
+    }
+
+    .container{
+        width: 359px;
+    }
+
+    .barre{
+        width: 359px;
+    }
+
+    #responsive-menu{
+        width: 100%;
+    }
+
+    .img-stage-1{
+        width: 100%;
+    }
+    
+    .img-stage-2{
+        width: 100%;
+    }
+
+    .banner-pack{
+        height: 50vh;
+        object-fit: cover;
+    }
+
+    h1{
+        font-size: 2.5rem;
+    }
+
+    #carousel{
+        flex-wrap: wrap;
+    }
+
+    #container-carousel{
+        order: -2;
+        width: 100%;
+    }
+
+    #fleche-gauche, #fleche-droite{
+        width: 50%;
+    }
+
+    #fleche-gauche{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .banner-circuit h2{
+        padding: 16px;
+    }
+
+    .banner-histoire h1{
+        font-size: 3rem;
+    }
+
+    .banner-histoire h2{
+        padding: 16px;
+    }
+
+    .card-landing{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+

@@ -1,0 +1,134 @@
+.banner-stage{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+
+    color: #FFF;
+
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-histoire{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    color: #FFF;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-stage h1{
+    font-family: Inter;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 32px;
+    color: #FFF;
+}
+
+.banner-stage h2 {
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #FFF;
+    margin-bottom: 16px;
+}
+
+.banner-histoire h1{
+    font-family: Inter;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 32px;
+    color: #FFF;
+}
+
+.banner-histoire h2 {
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #FFF;
+    margin-bottom: 16px;
+}
+
+.banner-circuit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    color: #FFF;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-circuit h1{
+    font-family: Inter;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 32px;
+    color: #FFF;
+}
+
+.banner-circuit h2 {
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #FFF;
+    margin-bottom: 16px;
+}
+
+.banner-landing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    color: #FFF;
+    height: 100vh;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.banner-landing h2{
+    font-family: Inter;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #FFF;
+    margin-bottom: 16px;
+}
+
+.banner-car img{
+    width: 100%;
+}
+
+.banner-pack{
+    width: 100%;
+}
+
+.background-banner{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    object-fit: cover;
+}

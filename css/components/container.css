@@ -1,0 +1,28 @@
+.container{
+  width: initial;
+  width: 1248px;
+  margin: 0 auto;
+  margin-bottom: 32px;
+}
+
+.container-txtimg{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-txtimg h2{
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.container-txtimg img{
+  width: 45px;
+}
+
+.container-texte-card{
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+  align-items: center;
+}
